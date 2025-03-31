@@ -1,0 +1,108 @@
+/* Thiết lập font chữ mặc định và các yếu tố cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Main nội dung */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#actionButton {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#actionButton:hover {
+    background-color: #0056b3;
+}
+
+/* Phần hướng dẫn làm việc nhóm */
+#instructions {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructions h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#instructions h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+#instructions ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#instructions li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Định dạng cho các đoạn code trong hướng dẫn */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+/* Thêm khoảng cách và căn giữa */
+section {
+    margin-top: 40px;
+}
+
+/* Footer (nếu có) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
